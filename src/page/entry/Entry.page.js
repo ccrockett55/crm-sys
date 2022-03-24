@@ -28,7 +28,7 @@ export const Entry = () => {
     }
         
     return (
-        <div className='entry-style bg2'>
+        <div className='entry-style'>
         <div className='jumbotron form-box'>
         {frmLoad === 'login' && 
         <Login 

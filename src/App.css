@@ -1,0 +1,17 @@
+.bg2 {
+    background: linear-gradient(0deg, rgba(58, 57, 58, 0.3), rgba(58, 57, 58, 0.3)), url(./page/entry/office.jpg);
+    background-size: cover;
+    
+}
+
+.navbg {
+    background-color: #C3CEDA;
+}
+
+.footerbg {
+    background-color: #071330;
+    color: white;
+    position: relative;
+    padding: 10px;
+    height: 5vh;
+}

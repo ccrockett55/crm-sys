@@ -12,8 +12,3 @@
 .forgot {
     font-size: normal;
 }
-
-.bg2 {
-    background: linear-gradient(0deg, rgba(58, 57, 58, 0.3), rgba(58, 57, 58, 0.3)), url(office.jpg);
-    background-size: auto;
-}

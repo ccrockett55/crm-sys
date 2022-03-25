@@ -1,6 +1,13 @@
+@media screen and (max-width: 415px) {
+   .spacer {
+    padding: 100px !important;
+   }
+  }
+
 .bg2 {
     background: linear-gradient(0deg, rgba(58, 57, 58, 0.3), rgba(58, 57, 58, 0.3)), url(./page/entry/office.jpg);
     background-size: cover;
+    
     
 }
 
@@ -11,7 +18,17 @@
 .footerbg {
     background-color: #071330;
     color: white;
-    position: relative;
-    padding: 10px;
-    height: 5vh;
+    padding: 30px;    
+    height: 10vh;
+}
+
+.breadcrumbbg {
+    background-color: white !important;
+}
+
+.spacer {
+    width: auto;
+    border: none;
+    padding-bottom: 500px;
+    margin: 20px;
 }

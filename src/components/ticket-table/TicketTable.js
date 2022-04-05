@@ -2,6 +2,8 @@ import React from 'react';
 import {Table} from 'react-bootstrap';
 
 export const TicketTable = ({tickets}) => {
+    
+    
   return (
     <div>
     <Table striped bordered hover>
@@ -24,7 +26,7 @@ export const TicketTable = ({tickets}) => {
             </tr>
             )) : (
             <tr>
-            <td colspan='4' className='text-center'>No tickets pending</td>
+            <td colspan='4' className='text-center'>No tickets match your search critera</td>
             
         </tr>
             )}

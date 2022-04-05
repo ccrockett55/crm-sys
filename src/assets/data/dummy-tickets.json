@@ -3,7 +3,24 @@
         "id": 1,
         "subject": "Test",
         "status": "Client response pending",
-        "addedAt": "3-25-2022"
+        "addedAt": "3-25-2022",
+        "history": [
+            {
+                "date": "4-5-2022",
+                "message": "This is a message",
+                "messageBy": "James Bond"
+            },
+            {
+                "date": "4-5-2022",
+                "message": "This is a message 2",
+                "messageBy": "Kate Spade"
+            },
+            {
+                "date": "4-5-2022",
+                "message": "This is a message 3",
+                "messageBy": "James Bond"
+            }
+        ]
     },
     {
         "id": 2,
@@ -13,7 +30,7 @@
     },
     {
         "id": 3,
-        "subject": "Test2",
+        "subject": "Will not power on",
         "status": "Client response pending",
         "addedAt": "3-25-2022"
     },
@@ -25,7 +42,7 @@
     },
     {
         "id": 5,
-        "subject": "Test2",
+        "subject": "Network issue",
         "status": "Client response pending",
         "addedAt": "3-25-2022"
     }
